@@ -7,6 +7,11 @@
     "icon": "./assets/images/icon.png",
     "scheme": "lesson02",
     "userInterfaceStyle": "automatic",
+    "splash" : {
+      "backgroundColor": "#000000",
+      "image": "./assets/images/coffee-splash.jpg",
+      "resizeMode": "cover",
+    },
     "ios": {
       "icon": "./assets/expo.icon"
     },
@@ -28,9 +33,9 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#000000",
+          "image": "./assets/images/coffee-splash.jpg",
+          "resizeMode": "cover",
         }
       ]
     ],
